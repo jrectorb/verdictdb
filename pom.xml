@@ -77,6 +77,8 @@
         <jackson.databind.version>2.6.5</jackson.databind.version>
         <maven.java.version>1.7</maven.java.version>
         <maven.source-plugin.version>3.0.1</maven.source-plugin.version>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler-plugin.version>3.8.0</maven.compiler-plugin.version>
         <maven.assembly-plugin.version>3.1.0</maven.assembly-plugin.version>
         <maven.failsafe.version>2.13</maven.failsafe.version>
@@ -218,6 +220,11 @@
             <groupId>me.tongfei</groupId>
             <artifactId>progressbar</artifactId>
             <version>0.7.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.facebook.presto</groupId>
+            <artifactId>presto-jdbc</artifactId>
+            <version>0.212</version>
         </dependency>
 
         <!--  Test Support -->
